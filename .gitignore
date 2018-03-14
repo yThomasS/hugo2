@@ -1,6 +1,11 @@
 # Compiled class file
 *.class
 
+# Generated sources
 **/gensrc
 
+# Test classes
 **/testclasses
+
+# Generated jalo java files
+**/jalo
