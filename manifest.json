@@ -59,7 +59,7 @@
     ],
     "storefrontAddons" : [
         {
-            "addon": "privacyoverlayeraddon",
+            "addon": "adaptivesearchsamplesaddon",
             "storefront": "hugo2storefront",
             "template": "yacceleratorstorefront"
         }
