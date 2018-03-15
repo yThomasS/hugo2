@@ -100,7 +100,7 @@ public class InitialDataSystemSetup extends AbstractSystemSetup
 		 */
 		LOG.info("Create Hugo2 Shoes Project Data");
 		if (context.getParameterMap().containsKey(EXTENSIONNAME + "_" + IMPORT_HUGO2_SHOES)) {
-			if ("true".equalsIgnoreCase(context.getParameterMap().get(EXTENSIONNAME + "_" + IMPORT_HUGO2_SHOES)[0])) {
+			if ("yes".equalsIgnoreCase(context.getParameterMap().get(EXTENSIONNAME + "_" + IMPORT_HUGO2_SHOES)[0])) {
 				LOG.info("Loading impex file");
 				getSetupImpexService().importImpexFile(
 						String.format("/%s/import/sampledata/hugo2-shoes.impex", EXTENSIONNAME), true);
